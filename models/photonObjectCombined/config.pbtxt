@@ -1,4 +1,4 @@
-name: "photonObject_res"
+name: "photonObjectCombined"
 platform: "pytorch_libtorch"
 max_batch_size: 0
 input [
@@ -44,7 +44,7 @@ input [
 }]
 output [
 {
-  name: "dscb__0"
+  name: "combined_output__0"
   data_type: TYPE_FP32
-  dims: [-1, 5]
+  dims: [-1, 11]
 }]
